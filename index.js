@@ -291,7 +291,7 @@ class ModClient extends Client {
         let watchUrl = config.options["watch-url"]?.[this.index.url];
         
         if (!watchUrl || !this.getExternal.isValidURL(watchUrl)) {
-            console.warn("No valid streaming URL found. Skipping URL setting.");
+            console.warn("https://www.twitch.tv/anohemn?sr=a");
             return;
         }
     
